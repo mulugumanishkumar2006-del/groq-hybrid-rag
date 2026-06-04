@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Application Data Storage
+data/chroma_db/
+data/raw/*
+data/processed/*
+
+# Keep the data directory structure intact but empty on GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE Settings
+.vscode/
+.idea/
